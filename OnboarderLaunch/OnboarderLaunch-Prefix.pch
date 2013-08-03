@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OnboarderLaunch' target in the 'OnboarderLaunch' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
