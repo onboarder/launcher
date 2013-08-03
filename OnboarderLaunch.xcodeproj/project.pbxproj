@@ -17,6 +17,8 @@
 		E01BF0CE17AD5BC4006D8070 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01BF0AE17AD5BC3006D8070 /* Cocoa.framework */; };
 		E01BF0D617AD5BC4006D8070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E01BF0D417AD5BC4006D8070 /* InfoPlist.strings */; };
 		E01BF0D917AD5BC4006D8070 /* OnboarderLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E01BF0D817AD5BC4006D8070 /* OnboarderLaunchTests.m */; };
+		E01BF0E317AD5FFA006D8070 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E01BF0E217AD5FFA006D8070 /* icon.png */; };
+		E01BF0E517AD6085006D8070 /* icon-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = E01BF0E417AD6085006D8070 /* icon-highlight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E01BF0D517AD5BC4006D8070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E01BF0D717AD5BC4006D8070 /* OnboarderLaunchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnboarderLaunchTests.h; sourceTree = "<group>"; };
 		E01BF0D817AD5BC4006D8070 /* OnboarderLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnboarderLaunchTests.m; sourceTree = "<group>"; };
+		E01BF0E217AD5FFA006D8070 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E01BF0E417AD6085006D8070 /* icon-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-highlight.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				E01BF0C017AD5BC3006D8070 /* AppDelegate.h */,
 				E01BF0C117AD5BC3006D8070 /* AppDelegate.m */,
 				E01BF0C317AD5BC4006D8070 /* MainMenu.xib */,
+				E01BF0E217AD5FFA006D8070 /* icon.png */,
+				E01BF0E417AD6085006D8070 /* icon-highlight.png */,
 				E01BF0B517AD5BC3006D8070 /* Supporting Files */,
 			);
 			path = OnboarderLaunch;
@@ -227,6 +233,8 @@
 				E01BF0B917AD5BC3006D8070 /* InfoPlist.strings in Resources */,
 				E01BF0BF17AD5BC3006D8070 /* Credits.rtf in Resources */,
 				E01BF0C517AD5BC4006D8070 /* MainMenu.xib in Resources */,
+				E01BF0E317AD5FFA006D8070 /* icon.png in Resources */,
+				E01BF0E517AD6085006D8070 /* icon-highlight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

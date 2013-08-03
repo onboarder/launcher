@@ -8,7 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    IBOutlet NSMenu *launcherMenu;
+    NSStatusItem *googleHangoutItem;
+    NSImage *launcherImage;
+    NSImage *launcherHighlightImage;
+}
+
+- (IBAction)launchGoogleHangout:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 

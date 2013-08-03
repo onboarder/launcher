@@ -10,9 +10,24 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)awakeFromNib {
+    
+    googleHangoutItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    
+    NSBundle *bundle = [NSBundle mainBundle];
+    
+    launcherImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"icon" ofType:@"png"]];
+    launcherHighlightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"icon-highlight" ofType:@"png"]];
+    
+    [googleHangoutItem setImage:launcherImage];
+    [googleHangoutItem setAlternateImage:launcherHighlightImage];
+    [googleHangoutItem setMenu:launcherMenu];
+    [googleHangoutItem setHighlightMode:YES];
+    
+}
+
+- (IBAction)launchGoogleHangout:(id)sender {
+    NSLog(@"Let's hangout.");
 }
 
 @end
